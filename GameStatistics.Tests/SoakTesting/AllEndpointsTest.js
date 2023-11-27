@@ -5,9 +5,12 @@ export let options = {
   insecureSkipTLSVerify: true,
   noConnectionReuse: false,
   stages: [
-    { duration: '2m', target: 400 },
-    { duration: '3h56m', target: 400 },
-    { duration: '2m', target: 0 }
+    { duration: '10s', target: 400 },
+    { duration: '3m', target: 400 },
+    { duration: '10s', target: 0 }
+    // { duration: '2m', target: 400 },
+    // { duration: '3h56m', target: 400 },
+    // { duration: '2m', target: 0 }
   ]
 }
 
